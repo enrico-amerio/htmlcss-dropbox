@@ -66,53 +66,51 @@ nav .btn{
 /* HERO */
 header{
   background-color: rgba(180,208,231,255);
+  
 
 }
+
 h1{
   font-size: 4.1rem;
   font-weight: 800;
-  
+  display: flex;
+  justify-content: center;
 }
 .hero{
   display: flex;
- 
-
 }
-
 .hero.left{
   width: 30%;
+  max-width: 500px ;
   height: 380px;
   flex-direction: column;
-  padding-top: 20px;
+  padding: 60px 0px;
   
 }
 .hero.right{
-  width: 70%;
   height: 440px;
-  
   max-width: 800px;
   position: relative;
-  
-  
-  
-  
+    
 }
 .hero.right img{
   width:100%;
   position:relative;
-  top: 60px;
+  top: 68px;
+  flex-shrink: 0;
   
 }
 .hero p:first-of-type{
-  margin-bottom: 60px;
+  margin-top: 5px;
+  margin-bottom: 30px;
 }
 .hero p:last-of-type{
-  margin-top: 22px;
-  margin-bottom: 60px;
+  margin-top: 30px;
+  margin-bottom: 65px;
 }
 .hero i{
-  font-size: 3rem;
-  padding-bottom: 22px;
+  font-size: 2.8rem;
+  
 
 }
 .hero .btn {
