@@ -27,6 +27,16 @@ a {
   width:90%;
   padding-top: 100px;
 }
+label{
+  margin-right:50px;
+  
+}
+.flex{
+  display: flex;
+}
+li{
+  list-style: none;
+}
 
 /* NAV */
 nav{
@@ -34,10 +44,13 @@ nav{
   align-items: center;
   justify-content: space-between;
   background-color: white;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
 }
 
 .top-bar{
-  padding: 20px 0px;
+  padding: 25px 0px;
   font-size: 0.8rem;
 }
 
@@ -66,7 +79,7 @@ nav .btn{
 /* HERO */
 header{
   background-color: rgba(180,208,231,255);
-  
+  padding-top: 60px;
 
 }
 
@@ -114,5 +127,47 @@ h1{
 
 }
 .hero .btn {
+  display: block;
   padding: 10px 15px;
+  max-width: 230px;
+}
+/* MAIN */
+.container.medium{
+  width: 75%;
+  margin-top: 160px;
+  
+}
+.container.medium h2{
+  margin-bottom: 55px;
+  font-size: 1.5rem;
+}
+.box{
+  border: 1px solid black;
+  margin-top: 55px;
+  
+}
+.box-top{
+  border-bottom: 1px solid black;
+  text-align: center;
+  
+}
+.vertical.box {
+  width: 33%;
+  height: 935px;
+  margin-bottom:50px;
+}
+
+.box:nth-child(-n+2){
+  margin-right: 50px;
+}
+.box-top i{
+  padding:10px;
+  
+}
+.grey{
+  color: grey;
+}
+.btn.box{
+  padding:14px 33px ;
+  
 }
