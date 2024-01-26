@@ -183,6 +183,9 @@ h1{
   font-size: 0.9rem;
    
 }
+.box.btn.contact{
+  padding: 10px 65px;
+}
 .plans{
  justify-content: center;
 }
