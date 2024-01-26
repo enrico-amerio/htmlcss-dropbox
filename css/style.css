@@ -26,6 +26,7 @@ a {
 .container.large{
   width:90%;
   padding-top: 100px;
+  max-width: 1150px;
 }
 label{
   margin-right:50px;
@@ -88,9 +89,11 @@ h1{
   font-weight: 800;
   display: flex;
   justify-content: center;
+  ;
 }
 .hero{
   display: flex;
+  justify-content: center;
 }
 .hero.left{
   width: 30%;
@@ -98,6 +101,7 @@ h1{
   height: 380px;
   flex-direction: column;
   padding: 60px 0px;
+  margin-top: 60px;
   
 }
 .hero.right{
@@ -114,8 +118,7 @@ h1{
   
 }
 .hero p:first-of-type{
-  margin-top: 5px;
-  margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 .hero p:last-of-type{
   margin-top: 30px;
@@ -152,7 +155,7 @@ h1{
   
 }
 .vertical.box {
-  width: 33%;
+  width: 300px;
   height: 935px;
   margin-bottom:50px;
 }
