@@ -447,3 +447,61 @@ background-color: #ffd830;
   padding-top:150px;
   padding-left:177px;
 }
+/* FAQ */
+.faq hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.faq h3{
+  font-size: 0.9rem;
+}
+
+.faq h3::after{
+  font-family: "Font Awesome 5 Free";
+  content: "\f078";
+  display: inline-block;
+  margin-left: 290px;
+  font-size: 0.6rem;
+  font-weight: 900;
+}
+.faq hr:last-of-type{
+  margin-bottom: 150px;
+}
+/* FOOTER */
+footer{
+  background-color: black;
+  color: rgba(227,227,227,0.5);
+}
+.sb{
+  justify-content: space-between
+
+}
+.footer-list li{
+  margin-bottom: 20px;
+}
+.footer-list li:first-child{
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 35px;
+}
+.footer-list li:last-child{
+  margin-bottom: px;
+}
+footer hr{
+  color: rgba(227,227,227,0.5);
+  width: 120px;
+}
+
+.lang{
+  margin-top: 50px ;
+  color: rgba(227,227,227,0.5);
+}
+.lang{
+  margin-top: 50px;
+  padding-bottom: 50px;
+  
+}
+.lang .ita{
+  padding: 0px 4px 0px 4px;
+}
